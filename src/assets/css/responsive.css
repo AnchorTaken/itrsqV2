@@ -57,7 +57,29 @@
 }
 @media (max-width: 1440px) {  
   .split-3 {
-        width: calc(74%/3);
+        width: calc(100%/3);
+    }
+    .header__container {
+        padding-left: 30px;
+    }
+    .blog-page-core{
+        width: 95%;
+    }
+    .new-hero,.website-container .website-how,.website .website-prices,.website__prices__container,.stack .stack-cont,.sub-website .sub-container,.why_container,.sub-tools,.sub-support .sub-container, .services .container,.support-list-container, .about-us-page .aboutus-section,.about-us-page .expert-section{
+        padding: 0px 40px;
+    }
+    .sub-website .sub-container .right-side .image-hovered img{
+        margin-bottom: 160px;
+        margin-top: 50px;
+    }
+    .tools-container .tool-single{
+        width: 85%;
+    }
+    .tools-container .tool-hash .tool__hashtag {
+        padding: 40px 50px;
+    }
+    .website__prices__maintenance > div{
+        width: 32%;
     }
 }
 @media (max-width: 1024px) {  
